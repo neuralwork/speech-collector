@@ -1,0 +1,36 @@
+.btn-group {
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container-sm {
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    max-width: 90%;
+    margin-top: calc(10vmin);
+        /* margin-left: 5%;
+        margin-right: 5%; */
+    padding: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sound-record-div {
+    background-color: rgb(41, 20, 99);
+    color: rgb(255, 255, 255);
+    width: 1000px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: calc(5vmin - 15px);
+    padding: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+}
+
+audio{
+    margin:10px;
+}

@@ -1,0 +1,54 @@
+body {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+.genel {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    /* margin-top: 10%; */
+}
+
+.progress {
+    --bs-progress-height: 5px;
+    background-color: #efccff;
+    height: 5px;
+}
+
+.container-sm {
+    background-color: rgb(253, 253, 247);
+    color: rgb(0, 0, 0);
+    width: 1000px;
+    max-width: 90%;
+    margin-top: calc(10% - 5rem);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+}
+
+.p {
+    margin-bottom: 1rem;
+}
+
+.text-container {
+    background-color: rgb(253, 253, 247);
+    color: rgb(0, 0, 0);
+    width: 1000px;
+    max-width: 90%;
+    margin-top: calc(10vmin);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+}

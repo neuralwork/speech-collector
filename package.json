@@ -1,0 +1,22 @@
+{
+  "name": "sound-collector",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:backend": "dotenv -e ./.env -- pnpm --filter sound-collector-backend start",
+    "dev:frontend": "dotenv -e ./.env -- pnpm --filter sound-collector-frontend dev",
+    "dev": "concurrently \"pnpm run dev:backend\" \"pnpm run dev:frontend\"",
+    "build": "dotenv -e ./.env -- pnpm --filter sound-collector-frontend build",
+    "serve": "concurrently \"pnpm run dev:backend\" \"pnpm --filter sound-collector-frontend serve\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "dotenv-cli": "^5.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fast-csv": "^5.0.2",
+    "pg": "^8.13.1"
+  }
+}

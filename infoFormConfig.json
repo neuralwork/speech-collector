@@ -1,0 +1,28 @@
+[
+  {
+    "label": "Name",
+    "type": "text",
+    "id": "name",
+    "required": true
+  },
+  {
+    "label": "Email",
+    "type": "email",
+    "id": "email"
+  },
+  {
+    "label": "Age",
+    "type": "integer",
+    "id": "age"
+  },
+  {
+    "label": "Height",
+    "type": "float",
+    "id": "height"
+  },
+  {
+    "label": "Birthdate",
+    "type": "date",
+    "id": "birthdate"
+  }
+]
